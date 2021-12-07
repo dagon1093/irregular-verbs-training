@@ -6,9 +6,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
 
 @Entity
 @Table(name = "participle")
@@ -20,4 +18,9 @@ public class Participle extends BaseEntity{
 
     @Column(name = "word")
     private String word;
+
+    @ManyToOne
+    @JoinColumn(name = "present_id")
+    private Present present;
+
 }
