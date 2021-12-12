@@ -24,4 +24,7 @@ public class Present extends BaseEntity{
 
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "present")
     private Set<Participle> participleSet;
+
+    @Column(name = "translate")
+    private String translate;
 }
