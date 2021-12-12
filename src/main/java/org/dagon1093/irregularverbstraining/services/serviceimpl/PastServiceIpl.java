@@ -52,15 +52,4 @@ public class PastServiceIpl implements PastService {
         pastRepository.deleteById(aLong);
     }
 
-//    todo
-    @Override
-    public Present getPresent() {
-        return null;
-    }
-
-//    todo
-    @Override
-    public Set<Participle> getParticiple() {
-        return null;
-    }
 }

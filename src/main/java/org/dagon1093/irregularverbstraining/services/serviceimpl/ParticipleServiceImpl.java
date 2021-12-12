@@ -52,14 +52,4 @@ public class ParticipleServiceImpl implements ParticipleService {
         participleRepository.deleteById(aLong);
     }
 
-//    todo
-    @Override
-    public Present getPresent() {
-        return null;
-    }
-//    todo
-    @Override
-    public Set<Past> getPast() {
-        return null;
-    }
 }

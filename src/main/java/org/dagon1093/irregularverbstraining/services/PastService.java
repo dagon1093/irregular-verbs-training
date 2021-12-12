@@ -8,7 +8,5 @@ import java.util.Set;
 
 public interface PastService extends CrudService<Past, Long> {
 
-    Present getPresent();
-    Set<Participle> getParticiple();
 
 }

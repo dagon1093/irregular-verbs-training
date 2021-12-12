@@ -1,14 +1,11 @@
 package org.dagon1093.irregularverbstraining.services.serviceimpl;
 
-import org.dagon1093.irregularverbstraining.model.Participle;
-import org.dagon1093.irregularverbstraining.model.Past;
+
 import org.dagon1093.irregularverbstraining.model.Present;
-import org.dagon1093.irregularverbstraining.model.Translation;
 import org.dagon1093.irregularverbstraining.repositories.ParticipleRepository;
 import org.dagon1093.irregularverbstraining.repositories.PastRepository;
 import org.dagon1093.irregularverbstraining.repositories.PresetRepository;
 import org.dagon1093.irregularverbstraining.services.PresentService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.HashSet;
@@ -54,19 +51,5 @@ public class PresentServiceImpl implements PresentService {
         presetRepository.deleteById(aLong);
     }
 
-//todo реализовать getPast
-    @Override
-    public Set<Past> getPast() {
-        return null;
-    }
-//todo реализовать getParticiple
-    @Override
-    public Set<Participle> getParticiple() {
-        return null;
-    }
-//todo реализовать getTranslation
-    @Override
-    public Translation getTranslation() {
-        return null;
-    }
+
 }
