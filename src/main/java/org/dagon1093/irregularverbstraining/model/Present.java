@@ -19,6 +19,9 @@ public class Present extends BaseEntity{
     @Column(name = "word")
     private String word;
 
+    @Column(name = "transcription")
+    private String transcription;
+
     @OneToMany(cascade = CascadeType.ALL, mappedBy = "present")
     private Set<Past> pastSet;
 

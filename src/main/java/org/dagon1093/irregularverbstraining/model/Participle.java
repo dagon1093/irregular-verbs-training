@@ -19,6 +19,9 @@ public class Participle extends BaseEntity{
     @Column(name = "word")
     private String word;
 
+    @Column(name = "transcription")
+    private String transcription;
+
     @ManyToOne
     @JoinColumn(name = "present_id")
     private Present present;
