@@ -109,9 +109,9 @@ public class DataLoader implements CommandLineRunner {
 
             }
 
-//            System.out.println(present);
+//          System.out.println(present);
 //			System.out.println(presentTranscription);
-//            System.out.println(past);
+//          System.out.println(past);
 //			System.out.println(pastTranscription);
 //			System.out.println(past2);
 //			System.out.println(past2Transcription);
