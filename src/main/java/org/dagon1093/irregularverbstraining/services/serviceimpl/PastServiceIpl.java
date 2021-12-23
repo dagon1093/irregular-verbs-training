@@ -1,8 +1,6 @@
 package org.dagon1093.irregularverbstraining.services.serviceimpl;
 
-import org.dagon1093.irregularverbstraining.model.Participle;
 import org.dagon1093.irregularverbstraining.model.Past;
-import org.dagon1093.irregularverbstraining.model.Present;
 import org.dagon1093.irregularverbstraining.repositories.ParticipleRepository;
 import org.dagon1093.irregularverbstraining.repositories.PastRepository;
 import org.dagon1093.irregularverbstraining.repositories.PresetRepository;

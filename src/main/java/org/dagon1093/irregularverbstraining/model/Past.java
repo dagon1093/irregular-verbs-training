@@ -1,5 +1,6 @@
 package org.dagon1093.irregularverbstraining.model;
 
+import com.fasterxml.jackson.annotation.JsonBackReference;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -21,6 +22,7 @@ public class Past extends BaseEntity{
     @Column(name = "transcription")
     private String transcription;
 
+    @JsonBackReference
     @ManyToOne
     @JoinColumn(name = "present_id")
     private Present present;
